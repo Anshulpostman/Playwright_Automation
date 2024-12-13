@@ -1,0 +1,28 @@
+Run Test with commands: 
+
+1) Run all test with commands = Npx playwright test 
+
+2)If we want run test case parallelly then commands = npx playwright test --workers 3 (It means all 3 browsers run parallelly)
+
+3)If we run only some specific test the command : Npx playwright test test/file name
+
+4)if we want to run multiple file then command : npx playwright test test/filename 1  filename 2
+
+5)We can run file with name also. for and eg: suppose filename is example then we write 
+
+          npx playwright test example
+
+6) To check the title of the commands : npx playwright -g "check title"
+
+7)If we want to run in a particular browser then command : npx playwright test --project=chromium
+
+8)When we want to run test in a backend then npx playwright test --project=chromium--headed
+
+
+9)If want to debug code then command : npx playwright test --project=chromium--debug
+
+10)if want to debug particular file then : Npx playwright test test/example.spec.js --project=chromium--debug
+
+11)if want to debug particular file in a particular line then : Npx playwright test test/example.spec.js:23 --project=chromium--debug
+
+
